@@ -1,13 +1,13 @@
 import { createApi, fetchBaseQuery } from '@reduxjs/toolkit/query/react'
 
-export const pokemonApi = createApi({
+export const product = createApi({
     reducerPath: 'pokemonApi',
-    baseQuery: fetchBaseQuery({ baseUrl: 'https://pokeapi.co/api/v2/' }),
+    baseQuery: fetchBaseQuery({ baseUrl: 'https://run.mocky.io/v3' }),
     endpoints: (builder) => ({
-      getPokemonByName: builder.query({
-        query: (name) => `pokemon/${name}`,
+      getProducts: builder.query({
+        query: () => `7f02819f-8254-410a-b8af-ab98572bd26b`,
       }),
     }),
   })
 
-export const { useGetPokemonByNameQuery } = pokemonApi
+export const { useGetProductsQuery } = product
