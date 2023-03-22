@@ -1,0 +1,12 @@
+ul {
+    list-style: none;
+}
+
+.status::before {
+    list-style-type: circle;
+    list-style: circle;
+    content: "•";
+    font-size: 20px;
+    margin: 0px;
+    margin-right: 5px;
+}

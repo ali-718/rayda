@@ -18,9 +18,13 @@
     src: url('./Assets/Font/ibm_plex_sans/IBMPlexSans-SemiBold.ttf');
   }
 
+@font-face {
+    font-family: ibm_medium;
+    src: url('./Assets/Font/ibm_plex_sans/IBMPlexSans-Medium.ttf');
+  }
+
   .semibold {
     font-family: ibm_semi_bold;
-    margin: 0;
 }
 
 .light {
@@ -33,4 +37,8 @@
 
 .bold {
     font-family: ibm_bold;
+}
+
+.medium {
+    font-family: ibm_medium;
 }
