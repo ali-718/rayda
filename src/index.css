@@ -1,0 +1,36 @@
+@font-face {
+    font-family: ibm_regular;
+    src: url('./Assets/Font/ibm_plex_sans/IBMPlexSans-Regular.ttf');
+  }
+
+@font-face {
+    font-family: ibm_bold;
+    src: url('./Assets/Font/ibm_plex_sans/IBMPlexSans-Bold.ttf');
+  }
+
+@font-face {
+    font-family: ibm_light;
+    src: url('./Assets/Font/ibm_plex_sans/IBMPlexSans-Light.ttf');
+  }
+
+@font-face {
+    font-family: ibm_semi_bold;
+    src: url('./Assets/Font/ibm_plex_sans/IBMPlexSans-SemiBold.ttf');
+  }
+
+  .semibold {
+    font-family: ibm_semi_bold;
+    margin: 0;
+}
+
+.light {
+    font-family: ibm_light;
+}
+
+.regular {
+    font-family: ibm_regular;
+}
+
+.bold {
+    font-family: ibm_bold;
+}
