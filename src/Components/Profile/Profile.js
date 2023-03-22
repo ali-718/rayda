@@ -4,10 +4,11 @@ import Like from '../../Assets/images/like.png'
 import { Button } from '../Button/Button'
 import { ProfileImage } from '../ProfileImage'
 import { Status } from '../Status'
+import './styles.css'
 
 export const Profile = () => {
     return (
-        <div className='border rounded-[10px] p-[20px] mt-[70px]'>
+        <div className='border rounded-[10px] p-[20px] mt-[70px] bg-white proBackground'>
             <img src={Cover} className='w-full h-[160px] rounded' />
             <div className='mx-[30px] flex items-center justify-between'>
                 <div className='flex'>
